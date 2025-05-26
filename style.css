@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #2E2D2D;
+    overflow-x:hidden;
+}
+
+main{
+color: rgb(230, 229, 229);
+}
+
+.purple-heading{
+    background-image: linear-gradient(rgb(120, 2, 205), rgb(152, 40, 233),rgb(222, 203, 244));
+    color: transparent;
+    background-clip: text;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 5vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100vw;
+    height:100vh;
+    margin-top: 10vh;
+    font-size: large;
+}
+
+form{
+    width:45vw;
+}
+
+
+#subject-count,#sem-count{
+    width: 24vw;
+    height:4vh;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    background-color: #cfcbcb;
+    border-radius: 10px;
+    border: none;
+
+}
+input{
+    width: 17vw;
+    height:4vh;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    background-color: #cfcbcb;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+.subject-container,.sem-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.marks-container,.credit-container,.sg-container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#output{
+     margin:3vh;
+     padding: 5vh;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10vw;
+    margin-top: 2.5vh;
+    
+}
+
+.purple-button{
+        background-image: linear-gradient(rgb(120, 2, 205), rgb(152, 40, 233));
+        color: white;
+        border-color: transparent;
+        border-radius: 10px;
+        padding: 5px;
+}
+
+.purple-button:hover{
+    cursor: pointer;
+    border-color: white;
+}
